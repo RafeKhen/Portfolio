@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Rafi</a>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-img">
+            <img src="rafe2.JPG" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Rafi</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="mailto:rafiul.pentester@gmail.com" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="content">
+            <h2>My Services</h2>
+            <div class="services-list">
+                <div class="service">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom web development services using modern technologies and frameworks.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-bug"></i>
+                    <h3>Penetration Testing</h3>
+                    <p>Perform in-depth penetration testing and security audits for web and API applications.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-shield"></i>
+                    <h3>Bug Hunting</h3>
+                    <p>Expertise in finding and reporting vulnerabilities in various online platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="content">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Bash</li>
+                <li>Burp Suite, Nmap, SQLMap</li>
+                <li>Web Application Security</li>
+                <li>Penetration Testing</li>
+                <li>Bug Bounty Hunting</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="content">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor's Degree in Computer Science</li>
+                <li>Certified Ethical Hacker (CEH)</li>
+                <li>OSCP (in progress)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="content">
+            <h2>Experience</h2>
+            <ul>
+                <li>Penetration Tester at XYZ Security (2022 - Present)</li>
+                <li>Freelance Bug Hunter on Bugcrowd and HackerOne (2020 - Present)</li>
+                <li>Web Developer at ABC Company (2020 - 2022)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
